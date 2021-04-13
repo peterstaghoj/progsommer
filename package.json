@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/peterstaghoj/progsommer/issues"
   },
-  "homepage": "https://github.com/peterstaghoj/progsommer#readme"
+  "homepage": "https://github.com/peterstaghoj/progsommer#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
 }
