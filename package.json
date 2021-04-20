@@ -2,22 +2,10 @@
   "name": "progsommer",
   "version": "1.0.0",
   "description": "",
-  "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
+    "start": "func start",
+    "test": "echo \"No tests yet...\""
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/peterstaghoj/progsommer.git"
-  },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/peterstaghoj/progsommer/issues"
-  },
-  "homepage": "https://github.com/peterstaghoj/progsommer#readme",
-  "dependencies": {
-    "express": "^4.17.1"
-  }
+  "dependencies": {},
+  "devDependencies": {}
 }

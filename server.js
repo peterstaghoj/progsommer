@@ -1,4 +1,2 @@
-function hej(){
-    return("hej")
-}
+
 
