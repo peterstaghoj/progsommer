@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dating site</title>
+</head>
+<body>
+    <div> 
+        <form id = "loginform" method="GET">
+            <input type="email" id ="email" placeholder="email"/>
+            <input type="text" id="password" placeholder="password"/>
+            <button type="submit" name="submit">Log in</button>
+        </form>
+
+        <form id="logoutform">
+            <button type ="submit" name="submit">Log ud</button>
+        </form>
+
+        
+    </div> 
+
+    <div>
+        <form id="updateUser" method="PUT">
+            <input type="text" id="email" placeholder="email">
+            <input type="text" id="first_name" placeholder="first name">
+            <input type="text" id="last_name" placeholder="last_name">
+            <input type="text" id="gender" placeholder="gender">
+            <input type="date" id="age" placeholder="age">
+            <input type="text" id="password" placeholder="password">
+            <button type="submit" id="submit">Update your user</button>
+        </form>
+    </div>
+
+    <div>
+        <form id="userToMatch" method="GET">
+            <button type="submit" id="like" onclick="like()">Like</button>
+            <button type="submit" id="dislike" onclick="dislike()">Dislike</button>
+        </form>
+    </div>
+
+    <script src="config.js"></script>
+</body>
+</html>
